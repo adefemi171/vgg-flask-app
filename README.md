@@ -1,1 +1,1 @@
-# flask-app-test
+# Simple Flask App created for VGG task

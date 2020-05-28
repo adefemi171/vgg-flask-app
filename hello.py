@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1 style='color:purple'>VGG to the world!</h1>"
+    return "<h1 style='color:purple'>Testing this Flask App for VGG!</h1>"
 
 @app.route('/<page_name>')
 def other_page(page_name):
-    response = make_response('The page named %s does not exist.' %page_name, 404)
+    response = make_response('Are you sure the %s exists?' %page_name, 404)
     return response
 
 if __name__ == '__main__':
