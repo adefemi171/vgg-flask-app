@@ -13,4 +13,4 @@ def other_page(page_name):
     return response
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run(port=5000)
